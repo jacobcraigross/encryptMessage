@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <title>encrypt_msg</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .row {
+            margin-top: 15vh;
+        }
+        h1 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col s8 offset-s2">
+            <div id="message-show" class="card-panel hide">
+                <h1>
+
+                </h1>
+                <div class="class">
+                    <a href="./index.html">create your own encrypted message</a>
+                </div>
+            </div>
+            <div id="message-form" class="card-panel">
+                <form>
+                    <label>
+                        enter an encrypted message
+                    </label>
+                    <input id='message-input'/>
+                    <button class="btn">encrypt</button>
+                </form>
+            </div>
+            <div id="link-form" class="card-panel hide">
+                <div>
+                    share this encrypted message with someone special.
+                    <input id='link-input'/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
